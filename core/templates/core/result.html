@@ -1,0 +1,13 @@
+<!-- core/templates/core/result.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Results</title>
+</head>
+<body>
+    <h1>Quiz Results</h1>
+    <p>You scored {{ score }} out of {{ total }}</p>
+
+    <a href="{% url 'dashboard' %}">Go back to Dashboard</a>
+</body>
+</html>
